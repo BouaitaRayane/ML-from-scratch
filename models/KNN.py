@@ -1,5 +1,5 @@
 import numpy as np
-from base import Model, ClassificationModel
+from base import ClassificationModel
 
 def distance_euclidienne (x1, x2):
     return np.sqrt(np.sum((x1-x2)**2))
